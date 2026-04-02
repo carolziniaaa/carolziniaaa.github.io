@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /fase-3/
+Disallow: /testes/
