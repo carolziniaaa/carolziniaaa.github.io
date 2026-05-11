@@ -445,10 +445,8 @@ footer nav ul li{
 
 @media (max-width: 576px) {
     footer nav ul li{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
-    
-
 }
 
 footer nav ul li:hover{
