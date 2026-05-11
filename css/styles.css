@@ -411,6 +411,7 @@ main.archive{
 
 /*-------- Footer --------*/
 
+
 footer{
     display: flex;
     justify-content: space-between;
@@ -425,7 +426,7 @@ footer{
 
 @media (max-width: 576px) {
     footer{
-        display: block;
+        display: flex;
         height: 3rem;
         padding-top: .8rem;
     }
@@ -444,7 +445,7 @@ footer nav ul li{
 
 @media (max-width: 576px) {
     footer nav ul li{
-        display: none;
+        font-size: 1rem;
     }
     
 
