@@ -447,6 +447,9 @@ footer nav ul li{
     footer nav ul li{
         font-size: 0.8rem;
     }
+    .mail{
+        font-size: 0.8rem;
+    }
 }
 
 footer nav ul li:hover{
