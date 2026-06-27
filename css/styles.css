@@ -137,7 +137,7 @@ main.home {
 }
 
 main.work{
-min-height: calc(100dvh - 3rem);
+  min-height: calc(100dvh - 6rem);
   display: flex;
   align-items: flex-end;
 }
@@ -149,7 +149,6 @@ main.single{
 
 main.archive{
     padding-top: 2rem;
-    min-height: calc(100dvh - 6rem - 4rem);
 }
 
 @media (max-width: 576px) {
@@ -200,7 +199,7 @@ main.archive{
     }
  
     .about-text p + p {
-        text-indent: 4rem;
+        text-indent: 3rem;
     }
 }
 
@@ -235,7 +234,7 @@ main.archive{
     width: 24rem;
     height: auto;
 }
-.work-areas, .work-year{
+.work-areas, .work-mode, .work-year{
     list-style: none;
     font-size: 1rem;
     line-height: 1.25rem;
@@ -265,7 +264,7 @@ main.archive{
 
 @media (max-width: 576px) {
 
-    .work-areas{
+    .work-areas, .work-mode{
         display: none;
     }
 
@@ -292,7 +291,7 @@ main.archive{
 
 @media (max-width: 992px) {
 
-    .work-areas{
+    .work-areas, .work-mode{
         display: none;
     }
 
@@ -412,7 +411,6 @@ main.archive{
 
 /*-------- Footer --------*/
 
-
 footer{
     display: flex;
     justify-content: space-between;
@@ -447,10 +445,13 @@ footer nav ul li{
 @media (max-width: 576px) {
     footer nav ul li{
         font-size: 0.8rem;
+        margin-left: 1.5rem;
     }
+    
     .mail{
         font-size: 0.8rem;
     }
+
 }
 
 footer nav ul li:hover{
